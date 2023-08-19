@@ -1,16 +1,12 @@
-## Event Management System
-<blockquote><p>This is a simple web-based open-source Event Management System.</p></blockquote>
+## Todo Application
+<blockquote><p>This is a simple web-based open-source Todo Application. where user can track on tasks</p></blockquote>
 
-## Features of Event Management System
+## Features of Todo Application
 <ul>
     <li>Login System</li>
     <li>Registration System</li>
-    <li>User Profile</li>
-    <li>Password Reset</li>
-    <li>Dashboard</li>
     <li>Home Page</li>
-    <li>Events</li>
-    <li>User Profile</li>
+    <li>Todo list</li>
 </ul>
 
 ## Technology
@@ -19,7 +15,6 @@
     <li>Laravel</li>
     <li>MySQL</li>
     <li>JavaScript</li>
-    <li>Axios</li>
     <li>HTML</li>
     <li>CSS</li>
     <li>Bootstrap</li>
@@ -27,12 +22,12 @@
 
 ## ScreenShot of this project
 
-## Home Page
+## To Add task Need to first Login
 <table>
     <thead>
         <tr>
             <th>
-                <img src="screenshots/homepage.png" alt="home-page ss">
+                <img src="screenshots/firstNeedLogin.jpg" alt="home-page ss">
             </th>
         </tr>
     </thead>
@@ -43,30 +38,63 @@
     <thead>
         <tr>
             <th>
-                <img src="screenshots/signin.png" alt="signin-page ss">
-            </th>
-        </tr>
-    </thead>
-</table>
-
-## Registration Page
-<table>
-    <thead>
-        <tr>
-            <th>
-                <img src="screenshots/signUp.png" alt="signUp-page ss">
+                <img src="screenshots/login.jpg" alt="signin-page ss">
             </th>
         </tr>
     </thead>
 </table>
 
 
-## Dashboard Page
+## Todo List or Home Page
 <table>
     <thead>
         <tr>
             <th>
-                <img src="screenshots/das.jpg" alt="dashboard-page ss">
+                <img src="screenshots/todoList.jpg" alt="todolist-page ss">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+## Add Task
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="screenshots/addtask.jpg" alt="addtask-page ss">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+## Complete Task & show alert badge
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="screenshots/completeTak.jpg" alt="addtask-page ss">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+## Edit Task
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="screenshots/edittask.jpg" alt="addtask-page ss">
+            </th>
+        </tr>
+    </thead>
+</table>
+
+## Delete Task Popup
+<table>
+    <thead>
+        <tr>
+            <th>
+                <img src="screenshots/delet.jpg" alt="delet-task ss">
             </th>
         </tr>
     </thead>
