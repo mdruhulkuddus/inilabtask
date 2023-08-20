@@ -54,7 +54,7 @@ class TodoController extends Controller
         return redirect('/todo')->with('message', 'Task Deleted');
     }
 
-    function StatusComplete($id)
+    function StatusChange($id)
     {
         $task = Todo::find($id);
         if ($task['status'] == "0") {

@@ -3,9 +3,6 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-12 col-xl-10">
                 @if(session('message'))
-{{--                <div class="alert alert-primary" role="alert">--}}
-{{--                    <span class="bg-light-success text-capitalize">{{session('message')}}</span>--}}
-{{--                </div>--}}
                     <div class="alert alert-primary alert-dismissible fade show" role="alert">
                         <span class="bg-light-success text-capitalize">{{session('message')}}</span>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -55,11 +52,11 @@
                                     </td>
                                     <td class="align-middle">
                                         @if($todo->status == '0')
-                                            <a href="{{ url('/status-complete', $todo->id) }}" data-mdb-toggle="tooltip"
+                                            <a href="{{ url('/status-change', $todo->id) }}" data-mdb-toggle="tooltip"
                                                title="Done"><i
                                                     class="fas fa-check text-success me-3"></i></a>
                                         @else
-                                            <a href="{{ url('/status-complete', $todo->id) }}" data-mdb-toggle="tooltip"
+                                            <a href="{{ url('/status-change', $todo->id) }}" data-mdb-toggle="tooltip"
                                                title="Undo"><i
                                                     class="fas fa-undo text-warning me-3"></i></a>
                                         @endif
